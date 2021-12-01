@@ -4,7 +4,7 @@ import os
 import sys
 import glob
 
-os.chdir('C:\Alsayyad\CNC\CNC Codes\CNC1')
+os.chdir('C:\*\*\*\*')
 #print(os.listdir(os.getcwd()))
 
 ListOfFiles = glob.glob('P*')
@@ -12,14 +12,7 @@ ListOfFiles = glob.glob('P*')
 
 print(ListOfFiles)
 
-'''
-for i in ListOfFiles:
-    GCode = []
-    with open(i,'r') as f:
-        GCode = f.readlines()
-    
-    #EditedFiles
-'''
+
 for i in ListOfFiles:
     GCode = []
     CleanGCode = []
